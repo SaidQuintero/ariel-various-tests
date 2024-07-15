@@ -121,15 +121,15 @@ def get_answer_azure(user_input):
         ],
         semantic_configuration_name="default",
         query_caption="extractive|highlight-false",
-        # scoring_profile="none",
-        scoring_profile="legal",
-        scoring_parameters=[
-            "tagx6-Constitucional",
-            "tagx5-Legal",
-            "tagx4-Infralegal",
-            "tagx3-Jurisprudencia",
-            "tagx2-Doctrina",
-        ],
+        scoring_profile="none",
+        # scoring_profile="legal",
+        # scoring_parameters=[
+        #     "tagx6-Constitucional",
+        #     "tagx5-Legal",
+        #     "tagx4-Infralegal",
+        #     "tagx3-Jurisprudencia",
+        #     "tagx2-Doctrina",
+        # ],
     )
 
     documents = []
