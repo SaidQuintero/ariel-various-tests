@@ -1,17 +1,19 @@
 import streamlit as st
 from chat_retriever import get_answer_azure, get_answer_pinecone
 
-if 'answer_azure' not in st.session_state:
+if "answer_azure" not in st.session_state:
     st.session_state.answer_azure = ""
     st.session_state.sources_azure = ""
+
 
 def on_click_handler_azure():
     response = get_answer_azure(user_input_azure)
     st.session_state.answer_azure = response["content"]
     st.session_state.sources_azure = response["sources"]
-    
+
+
 st.title("💠 Ariel Azure")
-user_input_azure = st.text_area("Tu pregunta ...", key='user_input_azure')
+user_input_azure = st.text_area("Tu pregunta ...", key="user_input_azure")
 st.button("Enviar", on_click=on_click_handler_azure, key="send_azure")
 st.write(st.session_state.answer_azure)
 st.write(st.session_state.sources_azure)
@@ -19,17 +21,19 @@ st.write(st.session_state.sources_azure)
 
 st.divider()
 
-if 'answer_pinecone' not in st.session_state:
+if "answer_pinecone" not in st.session_state:
     st.session_state.answer_pinecone = ""
     st.session_state.sources_pinecone = ""
+
 
 def on_click_handler_pinecone():
     response = get_answer_pinecone(user_input_pinecone)
     st.session_state.answer_pinecone = response["content"]
     st.session_state.sources_pinecone = response["sources"]
-    
+
+
 st.title("🍍 Ariel Pinecone")
-user_input_pinecone = st.text_area("Tu pregunta ...", key='user_input_pinecone')
+user_input_pinecone = st.text_area("Tu pregunta ...", key="user_input_pinecone")
 st.button("Enviar", on_click=on_click_handler_pinecone, key="send_pinecone")
 st.write(st.session_state.answer_pinecone)
 st.write(st.session_state.sources_pinecone)
