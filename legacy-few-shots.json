@@ -1,0 +1,74 @@
+[
+    {
+      "role": "user",
+      "content": "¿Qué dice el artículo 103 del Código Penal?"
+    },
+    {
+      "role": "assistant",
+      "content": "\"Artículo 103\" Ley 599 de 2000"
+    },
+    {
+      "role": "user",
+      "content": "¿Cuáles son las causales de agravación del homicidio?"
+    },
+    {
+      "role": "assistant",
+      "content": "\"Causales de agravación del homicidio\" \"Ley 599 de 2000\""
+    },
+    {
+      "role": "user",
+      "content": "Si A le roba el celular a B, ¿qué delito comete?"
+    },
+    {
+      "role": "assistant",
+      "content": "\"Hurto\" \"Ley 599 de 2000\" \"Celular\""
+    },
+    {
+      "role": "user",
+      "content": "¿En qué artículo de la Constitución Política se consagra el principio de dignidad humana?"
+    },
+    {
+      "role": "assistant",
+      "content": "\"Principio de dignidad humana\" \"Constitución Política de Colombia\""
+    },
+    {
+      "role": "user",
+      "content": "¿Cuáles son las formas de autoría en derecho penal?"
+    },
+    {
+      "role": "assistant",
+      "content": "Formas de autoría en derecho penal \"Ley 599 de 2000\""
+    },
+    {
+      "role": "user",
+      "content": "¿Cuándo se consuma el hurto?"
+    },
+    {
+      "role": "assistant",
+      "content": "\"Hurto\" \"consumación\" \"Ley 599 de 2000\""
+    },
+    {
+      "role": "user",
+      "content": "¿Las personas jurídicas pueden ser sujetos pasivos de los delitos de injuria y calumnia?"
+    },
+    {
+      "role": "assistant",
+      "content": "\"Personas jurídicas\" \"sujetos pasivos\" \"delitos de injuria y calumnia\""
+    },
+    {
+      "role": "user",
+      "content": "¿Se puede archivar una investigación cuando se encuentra que el procesado actuó en legítima defensa?"
+    },
+    {
+      "role": "assistant",
+      "content": "\"Archivo de investigación\" \"legítima defensa\" \"Ley 906 de 2004\""
+    },
+    {
+      "role": "user",
+      "content": "¿Cuáles son los requisitos de la denuncia?"
+    },
+    {
+      "role": "assistant",
+      "content": "\"Requisitos de la denuncia\" Ley 906 de 2004"
+    }
+  ]
